@@ -1,0 +1,511 @@
+{"level":"info","message":"Incoming Request: POST /api/v1/weddings","timestamp":"2026-01-28 10:29:30"}
+{"level":"error","message":"User role 'planner' is not authorized to access this route","method":"POST","path":"/api/v1/weddings","stack":"Error: User role 'planner' is not authorized to access this route\n    at D:\\intelliqonAssignment\\weddingMng\\backend\\src\\middleware\\auth.js:59:9\n    at Layer.handle [as handle_request] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at exports.protect (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\middleware\\auth.js:45:7)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","statusCode":403,"timestamp":"2026-01-28 10:29:30","userId":"69788fd1d0686ad27bd7643a"}
+{"level":"info","message":"Incoming Request: POST /api/v1/weddings","timestamp":"2026-01-28 10:30:09"}
+{"level":"info","message":"Creating new wedding for user: 69787273d17989da3fd3a0a6, Title: Johny & Emily's Wedding","timestamp":"2026-01-28 10:30:09"}
+{"level":"info","message":"Wedding created successfully: 697997d94efb32c3a582ad83","timestamp":"2026-01-28 10:30:10"}
+{"level":"info","message":"Incoming Request: GET /api/v1/weddings/697997d94efb32c3a582ad83","timestamp":"2026-01-28 10:32:08"}
+{"level":"info","message":"Fetching wedding: 697997d94efb32c3a582ad83","timestamp":"2026-01-28 10:32:08"}
+{"level":"info","message":"Incoming Request: GET /api/v1/weddings/697997d94efb32c3a582ad83","timestamp":"2026-01-28 10:32:49"}
+{"level":"info","message":"Fetching wedding: 697997d94efb32c3a582ad83","timestamp":"2026-01-28 10:32:49"}
+{"level":"info","message":"Incoming Request: GET /api/v1/weddings/697997d94efb32c3a582ad83","timestamp":"2026-01-28 10:33:38"}
+{"level":"info","message":"Fetching wedding: 697997d94efb32c3a582ad83","timestamp":"2026-01-28 10:33:38"}
+{"level":"info","message":"Incoming Request: PUT /api/v1/weddings/697997d94efb32c3a582ad83","timestamp":"2026-01-28 10:34:21"}
+{"level":"info","message":"Updating wedding: 697997d94efb32c3a582ad83","timestamp":"2026-01-28 10:34:21"}
+{"level":"info","message":"Wedding updated successfully: 697997d94efb32c3a582ad83","timestamp":"2026-01-28 10:34:22"}
+{"level":"info","message":"Incoming Request: GET /api/v1/weddings/697997d94efb32c3a582ad83","timestamp":"2026-01-28 10:34:33"}
+{"level":"info","message":"Fetching wedding: 697997d94efb32c3a582ad83","timestamp":"2026-01-28 10:34:33"}
+{"level":"info","message":"Incoming Request: POST /api/v1/auth/register","timestamp":"2026-01-28 10:35:22"}
+{"level":"info","message":"User registration attempt: sarah@planner.com","timestamp":"2026-01-28 10:35:22"}
+{"level":"info","message":"User registered successfully: sarah@planner.com (Role: planner)","timestamp":"2026-01-28 10:35:23"}
+{"level":"info","message":"Incoming Request: GET /api/v1/budgets/wedding/697997d94efb32c3a582ad83","timestamp":"2026-01-28 10:55:42"}
+{"level":"info","message":"Incoming Request: PUT /api/v1/budgets/wedding/697997d94efb32c3a582ad83","timestamp":"2026-01-28 10:56:31"}
+{"level":"info","message":"Incoming Request: GET /api/v1/budgets/wedding/697997d94efb32c3a582ad83","timestamp":"2026-01-28 10:56:39"}
+{"level":"info","message":"Incoming Request: PUT /api/v1/budgets/wedding/697997d94efb32c3a582ad83","timestamp":"2026-01-28 11:00:03"}
+{"level":"info","message":"Incoming Request: POST /api/v1/budgets/wedding/697997d94efb32c3a582ad83/expenses","timestamp":"2026-01-28 11:06:24"}
+{"level":"info","message":"Incoming Request: GET /api/v1/auth/register","timestamp":"2026-01-28 11:08:59"}
+{"level":"info","message":"Incoming Request: POST /api/v1/auth/register","timestamp":"2026-01-28 11:09:37"}
+{"level":"info","message":"User registration attempt: elegant@caterers.com","timestamp":"2026-01-28 11:09:37"}
+{"level":"info","message":"User registered successfully: elegant@caterers.com (Role: vendor)","timestamp":"2026-01-28 11:09:38"}
+{"level":"info","message":"Incoming Request: POST /api/v1/budgets/wedding/697997d94efb32c3a582ad83/expenses","timestamp":"2026-01-28 11:12:15"}
+{"level":"error","message":"Not authorized to access this route","method":"POST","path":"/api/v1/budgets/wedding/697997d94efb32c3a582ad83/expenses","stack":"Error: Not authorized to access this route\n    at exports.protect (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\middleware\\auth.js:21:9)\n    at Layer.handle [as handle_request] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at router.process_params (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)","statusCode":401,"timestamp":"2026-01-28 11:12:15","userId":"anonymous"}
+{"level":"info","message":"Incoming Request: POST /api/v1/auth/login","timestamp":"2026-01-28 11:13:51"}
+{"level":"info","message":"Login attempt: elegant@caterers.com","timestamp":"2026-01-28 11:13:51"}
+{"level":"info","message":"User logged in successfully: elegant@caterers.com","timestamp":"2026-01-28 11:13:51"}
+{"level":"info","message":"Incoming Request: POST /api/v1/budgets/wedding/697997d94efb32c3a582ad83/expenses","timestamp":"2026-01-28 11:14:18"}
+{"level":"error","message":"Not authorized to access this route","method":"POST","path":"/api/v1/budgets/wedding/697997d94efb32c3a582ad83/expenses","stack":"Error: Not authorized to access this route\n    at exports.protect (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\middleware\\auth.js:21:9)\n    at Layer.handle [as handle_request] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at router.process_params (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)","statusCode":401,"timestamp":"2026-01-28 11:14:18","userId":"anonymous"}
+{"level":"info","message":"Incoming Request: POST /api/v1/budgets/wedding/697997d94efb32c3a582ad83/expenses","timestamp":"2026-01-28 11:15:00"}
+{"level":"info","message":"Incoming Request: POST /api/v1/budgets/wedding/697997d94efb32c3a582ad83/expenses","timestamp":"2026-01-28 11:16:00"}
+{"level":"info","message":"Incoming Request: POST /api/v1/budgets/wedding/697997d94efb32c3a582ad83/expenses","timestamp":"2026-01-28 11:16:32"}
+{"level":"info","message":"Incoming Request: POST /api/v1/budgets/wedding/697997d94efb32c3a582ad83/expenses","timestamp":"2026-01-28 11:16:49"}
+{"level":"info","message":"Incoming Request: PUT /api/v1/budgets/wedding/697997d94efb32c3a582ad83/expenses/697997d94efb32c3a582ad85","timestamp":"2026-01-28 11:19:08"}
+{"level":"error","message":"Expense not found","method":"PUT","path":"/api/v1/budgets/wedding/697997d94efb32c3a582ad83/expenses/697997d94efb32c3a582ad85","stack":"Error: Expense not found\n    at exports.updateExpense (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\budgetController.js:173:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","statusCode":404,"timestamp":"2026-01-28 11:19:09","userId":"69787273d17989da3fd3a0a6"}
+{"level":"info","message":"Incoming Request: POST /api/v1/guests/wedding/697997d94efb32c3a582ad83","timestamp":"2026-01-28 12:10:13"}
+{"level":"info","message":"Incoming Request: POST /api/v1/guests/wedding/697997d94efb32c3a582ad83/bulk","timestamp":"2026-01-28 12:11:06"}
+{"level":"info","message":"Incoming Request: GET /api/v1/guests/wedding/697997d94efb32c3a582ad83","timestamp":"2026-01-28 12:12:08"}
+{"level":"error","message":"Not authorized to access this route","method":"GET","path":"/api/v1/guests/wedding/697997d94efb32c3a582ad83","stack":"Error: Not authorized to access this route\n    at exports.protect (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\middleware\\auth.js:21:9)\n    at Layer.handle [as handle_request] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at router.process_params (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)","statusCode":401,"timestamp":"2026-01-28 12:12:08","userId":"anonymous"}
+{"level":"info","message":"Incoming Request: GET /api/v1/guests/wedding/697997d94efb32c3a582ad83","timestamp":"2026-01-28 12:13:02"}
+{"level":"info","message":"Incoming Request: GET /api/v1/guests/wedding/697997d94efb32c3a582ad83/rsvpStatus=pending&category=family","timestamp":"2026-01-28 12:15:08"}
+{"level":"info","message":"Incoming Request: GET /api/v1/guests/wedding/697997d94efb32c3a582ad83","timestamp":"2026-01-28 12:15:54"}
+{"level":"info","message":"Incoming Request: GET /api/v1/guests/wedding/697997d94efb32c3a582ad83","timestamp":"2026-01-28 12:16:15"}
+{"level":"info","message":"Incoming Request: PUT /api/v1/guests/6979af8263770f72db3cb8e4/rsvp","timestamp":"2026-01-28 12:18:26"}
+{"level":"info","message":"Incoming Request: PUT /api/v1/guests/6979af8263770f72db3cb8e4","timestamp":"2026-01-28 12:27:35"}
+{"level":"info","message":"Incoming Request: PUT /api/v1/guests/6979af8263770f72db3cb8e4/send-invitation","timestamp":"2026-01-28 12:29:04"}
+{"level":"error","message":"Not authorized to access this route","method":"PUT","path":"/api/v1/guests/6979af8263770f72db3cb8e4/send-invitation","stack":"Error: Not authorized to access this route\n    at exports.protect (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\middleware\\auth.js:21:9)\n    at Layer.handle [as handle_request] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at router.process_params (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)","statusCode":401,"timestamp":"2026-01-28 12:29:04","userId":"anonymous"}
+{"level":"info","message":"Incoming Request: PUT /api/v1/guests/6979af8263770f72db3cb8e4/send-invitation","timestamp":"2026-01-28 12:29:13"}
+{"level":"info","message":"Incoming Request: PUT /api/v1/guests/6979af8263770f72db3cb8e4/assign-table","timestamp":"2026-01-28 12:31:11"}
+{"level":"info","message":"Incoming Request: GET /api/v1/guests/wedding/697997d94efb32c3a582ad83/stats","timestamp":"2026-01-28 12:32:40"}
+{"level":"error","message":"Class constructor ObjectId cannot be invoked without 'new'","method":"GET","path":"/api/v1/guests/wedding/697997d94efb32c3a582ad83/stats","stack":"TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at exports.getGuestStats (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\guestController.js:443:54)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-28 12:32:41","userId":"69787273d17989da3fd3a0a6"}
+{"level":"info","message":"Incoming Request: GET /api/v1/guests/wedding/697997d94efb32c3a582ad83/stats","timestamp":"2026-01-28 12:34:27"}
+{"level":"error","message":"Class constructor ObjectId cannot be invoked without 'new'","method":"GET","path":"/api/v1/guests/wedding/697997d94efb32c3a582ad83/stats","stack":"TypeError: Class constructor ObjectId cannot be invoked without 'new'\n    at exports.getGuestStats (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\guestController.js:443:54)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-28 12:34:27","userId":"69787273d17989da3fd3a0a6"}
+{"level":"info","message":"Incoming Request: DELETE /api/v1/guests/6979af8263770f72db3cb8e4","timestamp":"2026-01-28 12:35:59"}
+{"level":"info","message":"Incoming Request: GET /api/v1/guests/wedding/697997d94efb32c3a582ad83/stats","timestamp":"2026-01-28 12:39:43"}
+{"level":"info","message":"Incoming Request: GET /api/v1/timelines/wedding/697997d94efb32c3a582ad83","timestamp":"2026-01-28 12:53:08"}
+{"level":"info","message":"Incoming Request: POST /api/v1/timelines/wedding/697997d94efb32c3a582ad83/events","timestamp":"2026-01-28 12:57:09"}
+{"level":"info","message":"Incoming Request: POST /api/v1/timelines/wedding/697997d94efb32c3a582ad83/events","timestamp":"2026-01-28 12:57:28"}
+{"level":"info","message":"Incoming Request: POST /api/v1/timelines/wedding/697997d94efb32c3a582ad83/events","timestamp":"2026-01-28 12:59:48"}
+{"level":"info","message":"Incoming Request: POST /api/v1/timelines/wedding/697997d94efb32c3a582ad83/events","timestamp":"2026-01-28 13:00:13"}
+{"level":"info","message":"Incoming Request: POST /api/v1/timelines/wedding/697997d94efb32c3a582ad83/events","timestamp":"2026-01-28 13:00:34"}
+{"level":"info","message":"Incoming Request: POST /api/v1/timelines/wedding/697997d94efb32c3a582ad83/events","timestamp":"2026-01-28 13:00:46"}
+{"level":"info","message":"Incoming Request: GET /api/v1/timelines/wedding/697997d94efb32c3a582ad83/events","timestamp":"2026-01-28 13:13:47"}
+{"level":"info","message":"Incoming Request: POST /api/v1/timelines/wedding/697997d94efb32c3a582ad83/events","timestamp":"2026-01-28 13:14:54"}
+{"level":"info","message":"Incoming Request: GET /api/v1/timelines/wedding/697997d94efb32c3a582ad83","timestamp":"2026-01-28 13:16:43"}
+{"level":"info","message":"Incoming Request: POST /api/v1/bookings","timestamp":"2026-01-28 13:18:57"}
+{"level":"info","message":"Incoming Request: POST /api/v1/bookings","timestamp":"2026-01-28 13:20:21"}
+{"level":"info","message":"Incoming Request: GET /api/v1/bookings/wedding/697997d94efb32c3a582ad83","timestamp":"2026-01-28 13:24:11"}
+{"level":"info","message":"Incoming Request: GET /api/v1/bookings/wedding/697997d94efb32c3a582ad83","timestamp":"2026-01-28 13:24:45"}
+{"level":"info","message":"Incoming Request: GET /api/v1/bookings/my-bookings","timestamp":"2026-01-28 13:26:42"}
+{"level":"info","message":"Incoming Request: PUT /api/v1/bookings/6979bfbd089b1165edf0d7ff/status","timestamp":"2026-01-28 13:28:32"}
+{"level":"error","message":"Status is required","method":"PUT","path":"/api/v1/bookings/6979bfbd089b1165edf0d7ff/status","stack":"Error: Status is required\n    at exports.updateBookingStatus (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\bookingController.js:208:19)\n    at Layer.handle [as handle_request] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at D:\\intelliqonAssignment\\weddingMng\\backend\\src\\middleware\\auth.js:65:5\n    at Layer.handle [as handle_request] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at exports.protect (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\middleware\\auth.js:45:7)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","statusCode":400,"timestamp":"2026-01-28 13:28:32","userId":"6979a1197a9182421327ab5b"}
+{"level":"info","message":"Incoming Request: PUT /api/v1/bookings/6979bfbd089b1165edf0d7ff/status","timestamp":"2026-01-28 13:28:55"}
+{"level":"info","message":"Incoming Request: GET /api/v1/bookings/697997d94efb32c3a582ad83","timestamp":"2026-01-28 13:34:38"}
+{"level":"error","message":"Booking not found","method":"GET","path":"/api/v1/bookings/697997d94efb32c3a582ad83","stack":"Error: Booking not found\n    at exports.getBooking (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\bookingController.js:173:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","statusCode":404,"timestamp":"2026-01-28 13:34:39","userId":"69787273d17989da3fd3a0a6"}
+{"level":"info","message":"User registration attempt: test1769588334618@example.com","timestamp":"2026-01-28 13:48:54"}
+{"level":"info","message":"User registered successfully: test1769588334618@example.com (Role: couple)","timestamp":"2026-01-28 13:48:55"}
+{"level":"error","message":"Invalid or expired token","method":"GET","path":"/api/v1/auth/me","stack":"Error: Invalid or expired token\n    at exports.protect (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\middleware\\auth.js:47:19)\n    at Layer.handle [as handle_request] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at router.process_params (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at router.handle (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\express\\lib\\router\\index.js:47:12)","statusCode":401,"timestamp":"2026-01-28 13:48:55","userId":"anonymous"}
+{"level":"error","message":"Unexpected token '\"', \"\"Das Rohit Sanjay \"\" is not valid JSON","method":"POST","path":"/api/v1/auth/register","stack":"SyntaxError: Unexpected token '\"', \"\"Das Rohit Sanjay \"\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\body-parser\\lib\\types\\json.js:169:10)\n    at parse (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\body-parser\\lib\\types\\json.js:86:15)\n    at D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:508:28)\n    at endReadableNT (node:internal/streams/readable:1701:12)","statusCode":400,"timestamp":"2026-01-28 21:40:45","userId":"anonymous"}
+{"level":"info","message":"User registration attempt: rohitdevil7869@gmail.com","timestamp":"2026-01-28 21:48:18"}
+{"level":"error","message":"Registration error for rohitdevil7869@gmail.com: Client must be connected before running operations","timestamp":"2026-01-28 21:48:18"}
+{"level":"error","message":"Client must be connected before running operations","method":"POST","path":"/api/v1/auth/register","stack":"MongoNotConnectedError: Client must be connected before running operations\n    at autoConnect (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:98:19)\n    at executeOperation (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:40:40)\n    at FindCursor._initialize (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:62:73)\n    at FindCursor.cursorInit (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:632:38)\n    at FindCursor.fetchBatch (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:666:24)\n    at FindCursor.next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:342:28)\n    at Collection.findOne (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\collection.js:313:37)\n    at NativeCollection.<computed> [as findOne] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:246:33)\n    at model.Query._findOne (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongoose\\lib\\query.js:2710:45)\n    at model.Query.exec (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongoose\\lib\\query.js:4627:80)","timestamp":"2026-01-28 21:48:18","userId":"anonymous"}
+{"level":"info","message":"User registration attempt: testuser1769617643010@example.com","timestamp":"2026-01-28 21:57:23"}
+{"level":"info","message":"User registered successfully: testuser1769617643010@example.com (Role: couple)","timestamp":"2026-01-28 21:57:23"}
+{"level":"info","message":"Login attempt: testuser1769617643010@example.com","timestamp":"2026-01-28 21:57:23"}
+{"level":"info","message":"User logged in successfully: testuser1769617643010@example.com","timestamp":"2026-01-28 21:57:23"}
+{"level":"info","message":"Fetching profile for user: 697a38eb35ae505e9b306641","timestamp":"2026-01-28 21:57:23"}
+{"level":"info","message":"Login attempt: testuser1769617643010@example.com","timestamp":"2026-01-28 21:57:23"}
+{"level":"warn","message":"Login failed - Invalid password: testuser1769617643010@example.com","timestamp":"2026-01-28 21:57:24"}
+{"level":"error","message":"Invalid credentials","method":"POST","path":"/api/v1/auth/login","stack":"Error: Invalid credentials\n    at exports.login (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:96:19)","statusCode":401,"timestamp":"2026-01-28 21:57:24","userId":"anonymous"}
+{"level":"info","message":"User registration attempt: testuser1083148750@example.com","timestamp":"2026-01-28 21:58:02"}
+{"level":"info","message":"User registered successfully: testuser1083148750@example.com (Role: couple)","timestamp":"2026-01-28 21:58:03"}
+{"level":"info","message":"Login attempt: testuser1083148750@example.com","timestamp":"2026-01-28 21:58:11"}
+{"level":"info","message":"User logged in successfully: testuser1083148750@example.com","timestamp":"2026-01-28 21:58:12"}
+{"level":"info","message":"Login attempt: testuser1083148750@example.com","timestamp":"2026-01-28 21:58:29"}
+{"level":"warn","message":"Login failed - Invalid password: testuser1083148750@example.com","timestamp":"2026-01-28 21:58:30"}
+{"level":"error","message":"Invalid credentials","method":"POST","path":"/api/v1/auth/login","stack":"Error: Invalid credentials\n    at exports.login (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:96:19)","statusCode":401,"timestamp":"2026-01-28 21:58:30","userId":"anonymous"}
+{"level":"info","message":"User registration attempt: rohitdevil7869@gmail.com","timestamp":"2026-01-28 22:02:09"}
+{"level":"info","message":"User registered successfully: rohitdevil7869@gmail.com (Role: couple)","timestamp":"2026-01-28 22:02:10"}
+{"level":"info","message":"Login attempt: rohit@gmail.com","timestamp":"2026-01-28 22:06:09"}
+{"level":"warn","message":"Login failed - User not found: rohit@gmail.com","timestamp":"2026-01-28 22:06:09"}
+{"level":"error","message":"Invalid credentials","method":"POST","path":"/api/v1/auth/login","stack":"Error: Invalid credentials\n    at exports.login (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:82:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","statusCode":401,"timestamp":"2026-01-28 22:06:09","userId":"anonymous"}
+{"level":"info","message":"User registration attempt: rohitdevil7869@gmail.com","timestamp":"2026-01-28 22:08:53"}
+{"level":"error","message":"Registration error for rohitdevil7869@gmail.com: Client must be connected before running operations","timestamp":"2026-01-28 22:08:53"}
+{"level":"error","message":"Client must be connected before running operations","method":"POST","path":"/api/v1/auth/register","stack":"MongoNotConnectedError: Client must be connected before running operations\n    at autoConnect (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:98:19)\n    at executeOperation (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:40:40)\n    at FindCursor._initialize (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:62:73)\n    at FindCursor.cursorInit (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:632:38)\n    at FindCursor.fetchBatch (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:666:24)\n    at FindCursor.next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:342:28)\n    at Collection.findOne (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\collection.js:313:37)\n    at NativeCollection.<computed> [as findOne] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:246:33)\n    at model.Query._findOne (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongoose\\lib\\query.js:2710:45)\n    at model.Query.exec (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongoose\\lib\\query.js:4627:80)","timestamp":"2026-01-28 22:08:53","userId":"anonymous"}
+{"level":"info","message":"User registration attempt: rohitdevil7869@gmail.com","timestamp":"2026-01-28 22:08:57"}
+{"level":"error","message":"Registration error for rohitdevil7869@gmail.com: Client must be connected before running operations","timestamp":"2026-01-28 22:08:57"}
+{"level":"error","message":"Client must be connected before running operations","method":"POST","path":"/api/v1/auth/register","stack":"MongoNotConnectedError: Client must be connected before running operations\n    at autoConnect (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:98:19)\n    at executeOperation (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:40:40)\n    at FindCursor._initialize (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:62:73)\n    at FindCursor.cursorInit (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:632:38)\n    at FindCursor.fetchBatch (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:666:24)\n    at FindCursor.next (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:342:28)\n    at Collection.findOne (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\collection.js:313:37)\n    at NativeCollection.<computed> [as findOne] (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:246:33)\n    at model.Query._findOne (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongoose\\lib\\query.js:2710:45)\n    at model.Query.exec (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongoose\\lib\\query.js:4627:80)","timestamp":"2026-01-28 22:08:57","userId":"anonymous"}
+{"level":"info","message":"User registration attempt: rohitdevil7869@gmail.com","timestamp":"2026-01-28 22:14:07"}
+{"level":"warn","message":"Registration failed - Email already exists: rohitdevil7869@gmail.com","timestamp":"2026-01-28 22:14:07"}
+{"level":"error","message":"Email already registered","method":"POST","path":"/api/v1/auth/register","stack":"Error: Email already registered\n    at exports.register (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:19:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","statusCode":400,"timestamp":"2026-01-28 22:14:07","userId":"anonymous"}
+{"level":"info","message":"User registration attempt: rohitdevil7869@gmail.com","timestamp":"2026-01-28 22:16:39"}
+{"level":"warn","message":"Registration failed - Email already exists: rohitdevil7869@gmail.com","timestamp":"2026-01-28 22:16:39"}
+{"level":"error","message":"Email already registered","method":"POST","path":"/api/v1/auth/register","stack":"Error: Email already registered\n    at exports.register (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:19:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","statusCode":400,"timestamp":"2026-01-28 22:16:39","userId":"anonymous"}
+{"level":"info","message":"User registration attempt: aaaaa@gmail.com","timestamp":"2026-01-28 22:17:56"}
+{"level":"info","message":"User registered successfully: aaaaa@gmail.com (Role: couple)","timestamp":"2026-01-28 22:17:56"}
+{"level":"info","message":"User registration attempt: aartitarki@gmail.com","timestamp":"2026-01-29 10:33:51"}
+{"level":"info","message":"User registered successfully: aartitarki@gmail.com (Role: couple)","timestamp":"2026-01-29 10:33:51"}
+{"level":"info","message":"Login attempt: aartitarki@gmail.com","timestamp":"2026-01-29 10:34:21"}
+{"level":"info","message":"User logged in successfully: aartitarki@gmail.com","timestamp":"2026-01-29 10:34:22"}
+{"level":"error","message":"Email already registered","method":"POST","path":"/api/v1/auth/register","stack":"Error: Email already registered\n    at exports.register (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:16:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","statusCode":400,"timestamp":"2026-01-29 10:52:11","userId":"anonymous"}
+{"level":"error","message":"Invalid credentials","method":"POST","path":"/api/v1/auth/login","stack":"Error: Invalid credentials\n    at exports.login (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:84:19)","statusCode":401,"timestamp":"2026-01-29 11:08:02","userId":"anonymous"}
+{"level":"error","message":"Invalid credentials","method":"POST","path":"/api/v1/auth/login","stack":"Error: Invalid credentials\n    at exports.login (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:84:19)","statusCode":401,"timestamp":"2026-01-29 11:08:17","userId":"anonymous"}
+{"level":"error","message":"Invalid credentials","method":"POST","path":"/api/v1/auth/login","stack":"Error: Invalid credentials\n    at exports.login (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:84:19)","statusCode":401,"timestamp":"2026-01-29 11:08:37","userId":"anonymous"}
+{"level":"error","message":"Invalid credentials","method":"POST","path":"/api/v1/auth/login","stack":"Error: Invalid credentials\n    at exports.login (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:84:19)","statusCode":401,"timestamp":"2026-01-29 11:08:57","userId":"anonymous"}
+{"level":"error","message":"Invalid credentials","method":"POST","path":"/api/v1/auth/login","stack":"Error: Invalid credentials\n    at exports.login (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:84:19)","statusCode":401,"timestamp":"2026-01-29 11:09:07","userId":"anonymous"}
+{"level":"error","message":"No user found with this email","method":"POST","path":"/api/v1/auth/forgot-password","stack":"Error: No user found with this email\n    at exports.forgotPassword (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:209:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","statusCode":404,"timestamp":"2026-01-29 11:10:15","userId":"anonymous"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:04:26"}
+{"level":"info","message":"Retrieved 0 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:04:26"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:04:26"}
+{"level":"info","message":"Retrieved 0 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:04:26"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:04:36"}
+{"level":"info","message":"Retrieved 0 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:04:36"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:04:36"}
+{"level":"info","message":"Retrieved 0 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:04:36"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:04:40"}
+{"level":"info","message":"Retrieved 0 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:04:40"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:04:40"}
+{"level":"info","message":"Retrieved 0 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:04:40"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:04:54"}
+{"level":"info","message":"Retrieved 0 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:04:54"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:04:54"}
+{"level":"info","message":"Retrieved 0 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:04:55"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:08:52"}
+{"level":"info","message":"Retrieved 0 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:08:52"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:08:52"}
+{"level":"info","message":"Retrieved 0 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:08:52"}
+{"level":"info","message":"Creating new wedding for user: 697aea37c3f1d212f166e186, Title: Rohit & Aarti","timestamp":"2026-01-30 11:11:57"}
+{"level":"warn","message":"Wedding creation failed - Partner not found: swtaarti@gmail.com","timestamp":"2026-01-30 11:11:58"}
+{"level":"error","message":"User with email swtaarti@gmail.com not found","method":"POST","path":"/api/v1/weddings","stack":"Error: User with email swtaarti@gmail.com not found\n    at exports.createWedding (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\weddingController.js:41:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","statusCode":404,"timestamp":"2026-01-30 11:11:58","userId":"697aea37c3f1d212f166e186"}
+{"level":"info","message":"Creating new wedding for user: 697aea37c3f1d212f166e186, Title: Rohit & Aarti","timestamp":"2026-01-30 11:12:16"}
+{"level":"info","message":"Wedding created successfully: 697c44b8e505d731b3f5275c","timestamp":"2026-01-30 11:12:17"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:12:17"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:12:17"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:12:17"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:12:17"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:12:30"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:12:30"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:12:30"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:12:31"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:22:29"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:22:29"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:22:29"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:22:29"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:22:37"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:22:37"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:22:37"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:22:38"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:22:58"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:22:58"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:24:16"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:24:17"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:25:15"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:25:15"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:25:16"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:25:16"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:27:53"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:27:53"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:28:03"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:28:03"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:30:24"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:30:24"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:30:31"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:30:31"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:30:55"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:30:55"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:30:56"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:30:56"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:30:56"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:30:56"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:30:56"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:30:56"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:31:03"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:31:04"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:31:09"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:31:09"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:41:44"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:41:44"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:41:44"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:41:44"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:57:54"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:57:54"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:57:54"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:57:55"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:58:02"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:58:02"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:58:02"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:58:02"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:58:06"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:58:06"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:58:06"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:58:07"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:58:12"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:58:13"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:58:13"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:58:13"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:58:25"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:58:25"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 11:58:25"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 11:58:26"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:01:17"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:01:17"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:01:17"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:01:17"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:02:22"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:02:22"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:02:22"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:02:22"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:02:37"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:02:37"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:02:37"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:02:37"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:02:39"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:02:40"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:02:40"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:02:40"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:03:11"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:03:11"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:03:12"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:03:12"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:03:17"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:03:17"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:03:17"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:03:17"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:30:32"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:30:32"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:30:33"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:30:34"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:31:07"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:31:07"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:31:07"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:31:07"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:31:51"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:31:51"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:31:51"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:31:52"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:32:50"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:32:50"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:33:04"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:33:05"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:33:25"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:33:26"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:35:12"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:35:12"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:35:18"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:35:19"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:35:23"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:35:24"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:35:24"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:35:24"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:37:01"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:37:01"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:38:03"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:38:03"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:39:02"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:39:02"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:40:06"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:40:06"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:40:22"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:40:22"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 12:40:22"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 12:40:22"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 13:05:41"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 13:05:41"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 13:05:41"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 13:05:41"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 13:05:54"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 13:05:55"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 13:05:55"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 13:05:55"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 13:06:07"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 13:06:07"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 13:06:07"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 13:06:08"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 13:06:16"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 13:06:16"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 13:06:16"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 13:06:17"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 13:06:26"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 13:06:26"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 13:06:26"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 13:06:26"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 13:06:38"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 13:06:38"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 13:06:39"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 13:06:39"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 16:45:52"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 16:45:53"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 16:45:53"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 16:45:53"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 16:50:52"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 16:51:01"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 16:51:13"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 16:51:21"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:00:42"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:00:46"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:00:47"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:00:51"}
+{"level":"info","message":"Updating wedding: 697c44b8e505d731b3f5275c","timestamp":"2026-01-30 17:01:31"}
+{"level":"info","message":"Updating wedding: 697c44b8e505d731b3f5275c","timestamp":"2026-01-30 17:01:36"}
+{"level":"info","message":"Updating wedding: 697c44b8e505d731b3f5275c","timestamp":"2026-01-30 17:01:41"}
+{"level":"info","message":"Updating wedding: 697c44b8e505d731b3f5275c","timestamp":"2026-01-30 17:01:42"}
+{"level":"info","message":"Updating wedding: 697c44b8e505d731b3f5275c","timestamp":"2026-01-30 17:01:43"}
+{"level":"info","message":"Wedding updated successfully: 697c44b8e505d731b3f5275c","timestamp":"2026-01-30 17:01:50"}
+{"level":"info","message":"Updating wedding: 697c44b8e505d731b3f5275c","timestamp":"2026-01-30 17:01:57"}
+{"level":"info","message":"Wedding updated successfully: 697c44b8e505d731b3f5275c","timestamp":"2026-01-30 17:02:02"}
+{"level":"info","message":"Wedding updated successfully: 697c44b8e505d731b3f5275c","timestamp":"2026-01-30 17:02:07"}
+{"level":"info","message":"Updating wedding: 697c44b8e505d731b3f5275c","timestamp":"2026-01-30 17:02:15"}
+{"level":"info","message":"Updating wedding: 697c44b8e505d731b3f5275c","timestamp":"2026-01-30 17:02:18"}
+{"level":"info","message":"Wedding updated successfully: 697c44b8e505d731b3f5275c","timestamp":"2026-01-30 17:02:48"}
+{"level":"error","message":"Error updating wedding: Connection pool for cluster0-shard-00-02.6scuw.mongodb.net:27017 was cleared because another operation failed with: \"read ECONNRESET\"","timestamp":"2026-01-30 17:02:53"}
+{"level":"error","message":"Connection pool for cluster0-shard-00-02.6scuw.mongodb.net:27017 was cleared because another operation failed with: \"read ECONNRESET\"","method":"PUT","path":"/api/v1/weddings/697c44b8e505d731b3f5275c","stack":"MongoPoolClearedError: Connection pool for cluster0-shard-00-02.6scuw.mongodb.net:27017 was cleared because another operation failed with: \"read ECONNRESET\"\n    at ConnectionPool.processWaitQueue (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:449:82)\n    at ConnectionPool.clear (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:243:14)\n    at updateServers (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\sdam\\topology.js:518:29)\n    at Topology.serverUpdateHandler (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\sdam\\topology.js:394:9)\n    at Server.<anonymous> (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\sdam\\topology.js:501:77)\n    at Server.emit (node:events:508:28)\n    at markServerUnknown (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\sdam\\server.js:358:12)\n    at Server.handleError (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\sdam\\server.js:249:17)\n    at D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:395:25\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2026-01-30 17:02:53","userId":"697aea37c3f1d212f166e186"}
+{"level":"error","message":"Error updating wedding: Operation interrupted because client was closed","timestamp":"2026-01-30 17:03:18"}
+{"level":"error","message":"Operation interrupted because client was closed","method":"PUT","path":"/api/v1/weddings/697c44b8e505d731b3f5275c","stack":"MongoClientClosedError: Operation interrupted because client was closed\n    at ConnectionPool.closeCheckedOutConnections (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:260:26)\n    at Server.closeCheckedOutConnections (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\sdam\\server.js:111:26)\n    at Topology.closeCheckedOutConnections (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\sdam\\topology.js:222:27)\n    at MongoClient._close (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\mongo_client.js:348:24)\n    at MongoClient.close (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongodb\\lib\\mongo_client.js:331:35)\n    at NativeConnection.doClose (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:208:21)\n    at NativeConnection._close (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongoose\\lib\\connection.js:1257:20)\n    at NativeConnection.close (D:\\intelliqonAssignment\\weddingMng\\backend\\node_modules\\mongoose\\lib\\connection.js:1229:15)\n    at process.<anonymous> (D:\\intelliqonAssignment\\weddingMng\\backend\\config\\database.js:34:29)\n    at process.emit (node:events:508:28)","timestamp":"2026-01-30 17:03:18","userId":"697aea37c3f1d212f166e186"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:05:59"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:06:15"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:06:26"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:06:32"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:06:33"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:06:50"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:06:50"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:06:56"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:07:15"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:07:30"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:07:30"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:07:45"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:07:50"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:07:54"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:07:55"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:07:59"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:08:19"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:08:23"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:08:24"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:08:26"}
+{"level":"error","message":"Current password is incorrect","method":"PUT","path":"/api/v1/auth/change-password","stack":"Error: Current password is incorrect\n    at exports.changePassword (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:179:19)","statusCode":401,"timestamp":"2026-01-30 17:15:55","userId":"697aea37c3f1d212f166e186"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:16:02"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:16:03"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:16:03"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:16:05"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:21:40"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:21:45"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:21:47"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:21:56"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:22:24"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:22:40"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:22:42"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:22:46"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:22:46"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:22:46"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:22:47"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:22:51"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:22:53"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:22:55"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:22:55"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 17:22:56"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:23:05"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:23:07"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:23:23"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 17:23:26"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:16:28"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:16:28"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:16:28"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:16:28"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:16:37"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:16:38"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:16:38"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:16:38"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:16:40"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:16:40"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:16:40"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:16:40"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:16:43"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:16:43"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:16:43"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:16:43"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:16:48"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:16:48"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:16:48"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:16:49"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:18:32"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:18:32"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:18:32"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:18:32"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:18:40"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:18:41"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:18:41"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:18:41"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:20:37"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:20:37"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:20:37"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:20:37"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:26:12"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:26:12"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:32:49"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:32:49"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:32:49"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:32:50"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:32:51"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:32:52"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:32:52"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:32:52"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:35:32"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:35:32"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:35:32"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:35:32"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:37:52"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:37:52"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 18:37:52"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 18:37:52"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 20:59:05"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 20:59:06"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 20:59:07"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 20:59:09"}
+{"level":"error","message":"Invalid credentials","method":"POST","path":"/api/v1/auth/login","stack":"Error: Invalid credentials\n    at exports.login (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:84:19)","statusCode":401,"timestamp":"2026-01-30 21:00:55","userId":"anonymous"}
+{"level":"error","message":"Invalid credentials","method":"POST","path":"/api/v1/auth/login","stack":"Error: Invalid credentials\n    at exports.login (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:84:19)","statusCode":401,"timestamp":"2026-01-30 21:01:25","userId":"anonymous"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 21:10:47"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 21:10:47"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 21:10:47"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 21:10:48"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 21:10:51"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 21:10:51"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 21:10:51"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 21:10:51"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 21:10:53"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 21:10:53"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 21:10:53"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 21:10:53"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 21:14:09"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 21:14:09"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 21:14:09"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 21:14:10"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 21:14:13"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 21:14:13"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 21:14:13"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 21:14:13"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 21:22:59"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 21:22:59"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 21:25:16"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 21:25:16"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 21:25:16"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 21:25:16"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-30 21:31:55"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-30 21:31:56"}
+{"level":"error","message":"Current password is incorrect","method":"PUT","path":"/api/v1/auth/change-password","stack":"Error: Current password is incorrect\n    at exports.changePassword (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:179:19)","statusCode":401,"timestamp":"2026-01-31 10:49:07","userId":"697ccfba5f29eff9dc557e5e"}
+{"level":"error","message":"Invalid credentials","method":"POST","path":"/api/v1/auth/login","stack":"Error: Invalid credentials\n    at exports.login (D:\\intelliqonAssignment\\weddingMng\\backend\\src\\controllers\\authController.js:84:19)","statusCode":401,"timestamp":"2026-01-31 10:49:25","userId":"anonymous"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 10:50:38"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 10:50:38"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 10:50:38"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 10:50:38"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 10:50:40"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 10:50:40"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 10:50:40"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 10:50:40"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 10:51:43"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 10:51:43"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 10:51:44"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 10:51:44"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 10:53:03"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 10:53:04"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 10:53:04"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 10:53:04"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 10:53:07"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 10:53:07"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 10:53:07"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 10:53:07"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 11:08:05"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 11:08:06"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 11:08:06"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 11:08:06"}
+{"level":"error","message":"Invalid extension in transformation: auto","method":"POST","path":"/api/v1/users/vendors/697ccfba5f29eff9dc557e5e/images","timestamp":"2026-01-31 11:30:44","userId":"697ccfba5f29eff9dc557e5e"}
+{"level":"error","message":"Invalid extension in transformation: auto","method":"POST","path":"/api/v1/users/vendors/697ccfba5f29eff9dc557e5e/images","timestamp":"2026-01-31 11:32:53","userId":"697ccfba5f29eff9dc557e5e"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 11:33:07"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 11:33:08"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 11:33:08"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 11:33:08"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 11:40:17"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 11:40:17"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 11:40:17"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 11:40:17"}
+{"level":"error","message":"Invalid extension in transformation: auto","method":"POST","path":"/api/v1/users/vendors/697ccfba5f29eff9dc557e5e/images","timestamp":"2026-01-31 11:46:23","userId":"697ccfba5f29eff9dc557e5e"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 11:46:48"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 11:46:48"}
+{"level":"info","message":"Fetching weddings for user: 697aea37c3f1d212f166e186 - Page: 1, Limit: 10","timestamp":"2026-01-31 11:46:48"}
+{"level":"info","message":"Retrieved 1 weddings for user: 697aea37c3f1d212f166e186","timestamp":"2026-01-31 11:46:48"}
+{"level":"error","message":"Invalid extension in transformation: auto","method":"POST","path":"/api/v1/users/vendors/697ccfba5f29eff9dc557e5e/images","timestamp":"2026-01-31 11:53:45","userId":"697ccfba5f29eff9dc557e5e"}
